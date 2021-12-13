@@ -8,14 +8,10 @@
   </head>
   <body>
     <form action="">
-      <input
-        type="url"
-        placeholder="htp://example.com.br/"
-        pattern=".*\.com\.br*"
-        title="somente dominios com .com.br serão aceitos"
-        required
-        spellcheck="true"
-      />
+      <datalist id="cor">
+        <option value="color">#0000ff</option>
+      </datalist>
+      <input type="color" value="" list="cor" />
       <button type="submit">Enviar</button>
     </form>
   </body>

@@ -8,15 +8,13 @@
   </head>
   <body>
     <form action="">
-      <input
-        type="url"
-        placeholder="htp://example.com.br/"
-        pattern=".*\.com\.br*"
-        title="somente dominios com .com.br serão aceitos"
-        required
-        spellcheck="true"
-      />
-      <button type="submit">Enviar</button>
+      <label for="sel">Selecione o modelo:</label>
+      <select name="op" id="op" multiple size="3">
+        <option value="">Selecione o modelo</option>
+        <option value="fiat">Uno</option>
+        <option value="audi">A3</option>
+        <option value="bmw">X6</option>
+      </select>
     </form>
   </body>
 </html>

@@ -8,15 +8,13 @@
   </head>
   <body>
     <form action="">
-      <input
-        type="url"
-        placeholder="htp://example.com.br/"
-        pattern=".*\.com\.br*"
-        title="somente dominios com .com.br serão aceitos"
-        required
-        spellcheck="true"
-      />
-      <button type="submit">Enviar</button>
+      <fieldset>
+        <legend>Bora tomar um café?</legend>
+        <label for="yep">Sim</label>
+        <input type="radio" id="yep" name="coffe" value="yes" />
+        <label for="nono">Não</label>
+        <input type="radio" id="nono" name="coffe" value="no" />
+      </fieldset>
     </form>
   </body>
 </html>
